@@ -29,6 +29,10 @@ To encode point the script at your duckcode.txt file, select an output and a lan
 
 ```ducktools.py -e -l gb /path/to/duck_text.txt /path/to/output.bin```
 
+if you get an error, move the language encoding `-l`  to the end:
+
+```ducctools.py -e /path/to/payload.txt /path/to/payload.bin```
+
 ### Decode
 
 To decode point the script at your inject.bin file, select an output and a language as show in the example below:
