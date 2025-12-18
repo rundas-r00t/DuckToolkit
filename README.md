@@ -31,7 +31,7 @@ To encode point the script at your duckcode.txt file, select an output and a lan
 
 if you get an error, move the language encoding `-l`  to the end:
 
-```ducctools.py -e /path/to/payload.txt /path/to/payload.bin```
+```ducktools.py -e /path/to/payload.txt /path/to/payload.bin -l us```
 
 ### Decode
 
